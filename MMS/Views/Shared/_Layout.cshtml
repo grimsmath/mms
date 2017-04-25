@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>@ViewBag.Title &mdash; Mentor Management System</title>
+	<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width" />
+
+	@Styles.Render(
+		"~/Content/css/bootstrap",
+		"~/Content/css/fullcalendar",
+        "~/Content/css/site")
+
+    @Scripts.Render(
+        "~/bundles/jquery",
+        "~/bundles/mms")
+</head>
+<body>
+    <div id="header">
+        <div class="branding">Jacksonville ReEntry Center</div>
+    </div>
+
+	@Html.Partial("_SiteNav")
+
+	<div class="container">
+		@RenderBody()
+	</div>
+
+	@Scripts.Render(
+        "~/bundles/jquery-val",
+		"~/bundles/jquery-plugins",
+		"~/bundles/bootstrap",
+        "~/bundles/fullcalendar")
+</body>
+</html>

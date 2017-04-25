@@ -1,0 +1,18 @@
+﻿@model MMS.ViewModels.MessageViewModel
+@{
+    ViewBag.Title = "View Message";
+    ViewBag.Method = "View";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div class="row">
+    <div class="well">
+        <p>From: @Model.FromUser</p>
+        <p>To: @Model.ToUser</p>
+        <p>Subject: @Model.Subject</p>
+        <p>Sent: @Model.Created</p>
+        <p>Body: @Model.Body</p>
+    </div>
+</div>

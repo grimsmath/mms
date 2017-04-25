@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Edit Mentor Resource";
+    ViewBag.Method = "Edit";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@Html.Hidden("InputMode", (string) ViewBag.Method)
+@Html.Partial("_Form")

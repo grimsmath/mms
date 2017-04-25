@@ -1,0 +1,9 @@
+﻿@{
+	ViewBag.Title = "Add Calendar Entry";
+    ViewBag.Method = "Create";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@Html.Hidden("InputMode", (string) ViewBag.Method)
+@Html.Partial("_Form")

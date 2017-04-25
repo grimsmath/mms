@@ -1,0 +1,1 @@
+﻿This folder contains all of the files uploaded through the staff pages.

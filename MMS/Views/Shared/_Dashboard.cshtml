@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>@ViewBag.Title &mdash; Mentor Management System</title>
+	<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width" />
+
+	@Styles.Render(
+		"~/Content/css/bootstrap",
+		"~/Content/css/fullcalendar",
+		"~/Content/css/site")
+
+    @Scripts.Render(
+        "~/bundles/jquery",
+        "~/bundles/jquery-val",
+		"~/bundles/jquery-plugins",
+        "~/bundles/mms")
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <div id="header">
+		<div class="branding">JREC Mentor Management System &mdash; @ViewBag.Title</div>
+	</div>
+
+	@Html.Partial("_SiteNav")
+
+	<div class="container-semifluid">
+		@RenderBody()
+	</div>
+
+	@Scripts.Render(
+        "~/bundles/bootstrap",
+        "~/bundles/fullcalendar")
+    
+    <script type="text/javascript">
+        $(function () {
+            $('#NavList li').removeClass("active");
+            $('#NavAccount').addClass("active");
+        });
+    </script>	
+</body>
+</html>

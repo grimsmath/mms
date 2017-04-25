@@ -1,0 +1,204 @@
+---
+FieldType: Text
+FieldName: Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: First
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Middle
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Maiden
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Address
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: City
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: State
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: ZIP_Code
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Telephone_1
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Telephone_2
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: EMail_Address
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Volunteer_Group_Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Social_Security
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Date_of_Birth
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RaceEthnic_Origin
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Gender
+FieldFlags: 49152
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: Female
+FieldStateOption: Male
+FieldStateOption: Off
+---
+FieldType: Text
+FieldName: Drivers_License
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DL_State
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: RadioButton
+FieldFlags: 49152
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: No
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Textfield
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: 2_Have_you_ever_been_convicted_on_a_misdemeanor_or
+FieldFlags: 49152
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: No
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Textfield0
+FieldFlags: 4096
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: 3_Do_you_have_a_relationship_for_example_parent_sp
+FieldFlags: 49152
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: No
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: Name0
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: DC
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Relationship
+FieldFlags: 49152
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: No
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: If_yes_please_indicate_where_and_when_you_were_emp
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: 5_Do_you_have_any_relatives_working_for_the_Depart
+FieldFlags: 49152
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: No
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: If_yes_provide_Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Relationship0
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Work_Location
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: In_case_of_emergency_notify
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: area_code__number
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Signature
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Printed_Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Date
+FieldFlags: 0
+FieldJustification: Left
